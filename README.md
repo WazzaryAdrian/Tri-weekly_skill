@@ -1,14 +1,14 @@
 # Tri-weekly.skill
 A Claude Code based skill for tri-weekly academic research papers and consulting reports collection
-# 三周报自动化Skill(Copyright © Jinghao Guo 2026)
+# 三周报自动化Skill (Copyright © Jinghao Guo 2026)
 
-一个**半自动**的"三周报"制作技能：按三周一期的节奏，把 **AI×人力资源、以及 OBHRM 各细分主题**领域的最新学术文献与权威咨询/业界报告，**检索 → 去重 → 归类 → 写中文摘要 → 生成统一格式 Word 文档**。运行在 **Claude Code**（也兼容 Codex / Antigravity 等支持 Agent Skills 的工具）。
+一个**半自动**的三周报制作技能（**但同时也将功能扩展至OBHRM领域各类相关子模块最新发表/企业实践/业界趋势报告情况梳理，可按需呈教授使用**）：按三周一期的节奏，把 **AI×人力资源、以及 OBHRM 各细分主题**领域的最新学术文献与权威咨询/业界报告，**检索 → 去重 → 归类 → 写中文摘要 → 生成统一格式 Word 文档**。运行在 **Claude Code**（也兼容 Codex / Antigravity 等支持 Agent Skills 的工具）。
 
 ---
 
 ## 一、它能做什么、产出什么
 
-产出一份 `Volume_2_Issue_N_三周报_YYYYMMDD.docx`（但同时也将功能扩展至本领域各类子模块最新发表/企业实践/业界趋势报告情况梳理，可按需呈教授使用）：
+产出一份 `Volume_2_Issue_N_三周报_YYYYMMDD.docx`：
 - 文件开头即**目录**（带点引线和自动页码）；
 - 正文按 **自定义的板块**分组；
 - 每条 = **中文标题 + 中文摘要 + 【原文信息】引文**；
@@ -43,7 +43,7 @@ A Claude Code based skill for tri-weekly academic research papers and consulting
 
 1. **触发**：跟 Claude 说"做第 N 期三周报"。
 2. **确认窗口**：Claude 自报期号 / 目标日 / 检索窗口，你确认或调整。
-3. **报本期主题 + 板块**：AI×OBHRM（默认），或其他 OBHRM 主题（组织变革 / 招聘甄选 / 薪酬 / 团队动力学…）；并给本期板块清单（可自拟、数目不限，不报则用默认）。
+3. **报本期主题 + 板块**：AI×OBHRM（默认），或其他 OBHRM 主题（组织变革 / 招聘甄选 / 薪酬 / 绩效 / 团队动力学…）；并给本期板块清单（可自拟、数目不限，不报则用默认）。
 4. **检索**：Claude 跑 Crossref 拉 A 类全量候选 + 抓咨询/业界报告。
 5. **上传社媒**：Claude 停下，上传微信公众号 / 小红书等资源（没有即回复"无"）；它回溯到原始论文再纳入。
 6. **评审**：Claude 给每条"主旨 + 入选理由 + 置信度"，手动定边缘条目留/删、新来源批/不批。
