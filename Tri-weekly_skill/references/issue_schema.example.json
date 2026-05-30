@@ -1,0 +1,18 @@
+{
+  "issue_no": 9,
+  "date": "2026-06-19",
+  "sections": [
+    {
+      "no": 1,
+      "title": "技术的发展对工作的影响",
+      "entries": [
+        {
+          "no": "1.1",
+          "title": "中文条目标题（§1-3 描述性 / §4-5 可标题党）",
+          "abstract": "中文长摘要：学术型按 背景/缺口→理论→方法/数据→发现，含具体统计量；社媒/案例型为叙事+启示。",
+          "citation": "Author A, Author B. Title [J]. Journal, 2026, vol(iss): pp. https://doi.org/10.xxxx/yyyy"
+        }
+      ]
+    }
+  ]
+}
