@@ -1,6 +1,6 @@
 # 三周报自动化Skill (Copyright © Jinghao Guo 2026)
 
-一个**半自动**的三周报制作Skill（**同时也将功能扩展至OBHRM/Strategy等本领域相关子模块最新期刊发表/企业实践/业界咨询报告趋势洞察的最新情报梳理，可按需呈教授使用**）：按三周一期的节奏，把 **AI×OBHRM、以及 OBHRM 各细分主题**领域的最新学术文献与权威咨询报告等，**检索 → 去重 → 归类 → 摘要 → 生成统一格式 Word 文档**。运行在 **Claude Code**（也兼容 Codex / Antigravity 等支持 Agent Skills 的工具）。
+一个**半自动**的三周报制作Skill（**同时也将功能扩展至OBHRM/Strategy等本领域相关子模块最新期刊发表/企业实践/业界咨询报告趋势洞察的情报梳理，可按需呈教授使用**）：按三周一期的节奏，把 **AI×OBHRM、以及 OBHRM 各细分主题**领域的最新学术文献与权威咨询报告等，**检索 → 去重 → 归类 → 摘要 → 生成统一格式 Word 文档**。运行在 **Claude Code**（也兼容 Codex / Antigravity 等支持 Agent Skills 的工具）。
 
 ---
 
